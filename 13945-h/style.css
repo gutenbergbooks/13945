@@ -1,0 +1,104 @@
+/*
+
+The Gnutenberg Press - default CSS stylesheet
+Copyright (C) 2003  Marcello Perathoner
+
+Further modification by Joshua Hutchinson - 2004
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+
+*/
+
+body.dgp		{ margin-left: 10%; margin-right: 10%; text-align: justify }
+body.marginalia		{ margin: 4em 2em 4em 10em; text-align: justify }
+
+div.dgp                	{ margin: 2em 0em }
+div.frontpage      	{ margin: 4em 0em }
+div.contents       	{ margin: 2em 0em }
+div.colophon       	{ margin: 4em 0em; font-size: 80% } 
+div.footnotes      	{ margin: 2em 0em }
+div.figure-caption 	{ margin: 1em 0em; text-align: center; font-size: 80% }
+div.epigraph	     	{ margin: 0em 0em 1em 10em; font-size: small; }
+div.sp             	{ margin: 1em 0em 1em  2em; text-align: left }
+div.speaker	     	{ margin: 1em 0em 1em  0em; text-align: left;
+                     	  font-weight: bold; text-indent: 0em }
+div.stage          	{ margin: 1em 0em; font-weight: normal; font-style: italic }
+span.stage	     	{ font-weight: normal; font-style: italic }
+div.lg             	{ margin: 1em 0em 1em 2em }
+div.eg             	{ margin: 1em -1em; padding: 1ex 1em; font-size: 80%; 
+                     	  color: black; background-color: #eee }
+.marginnote		{ margin: 0em 0em 0em -12em; width: 10em; float: left; font-size: 80%}
+
+p.dgp              	{  }
+p.noindent	     	{  }
+p.pubdate          	{ margin: 4em 0em; text-indent: 0em }
+p.dateline	     	{ margin: 1ex 0em; text-align: right }
+p.salute           	{ margin: 1ex 0em; }
+p.signed           	{ margin: 1ex 0em; text-align: right }
+p.byline           	{ margin: 1ex 0em; }
+/* indent verse continuation lines 4em */
+p.l		     	{ margin: 0em 0em 0em 4em; text-align: left; 
+                     	  text-indent: -4em }
+
+hr.doublepage	     	{ margin: 4em 0em; height: 5px }
+hr.page            	{ margin: 4em 0em }
+
+.display           	{ margin: 2em 4em }
+blockquote.dgp	     	{ margin: 2em 4em }
+
+h1.author          	{ margin-top: 1em; margin-bottom: 1em; font-size: 173% }
+h1.title           	{ margin-top: 1em; margin-bottom: 1em; font-size: 207% }
+h1.dgp		     	{ margin-top: 1em; margin-bottom: 1em; font-size: 173% }
+h2.dgp, h1.sub	     	{ margin-top: 1em; margin-bottom: 1em; font-size: 144% }
+h3.dgp, h2.sub	     	{ margin-top: 1em; margin-bottom: 1em; font-size: 120% }
+h4.dgp, h3.sub	     	{ margin-top: 1em; margin-bottom: 1em; font-size: 100% }
+
+h4.sub, h5.sub, h6.sub	{ margin-top: 1em; font-size: smaller }
+
+ol.dgp, ul.dgp         	{ margin: 2em 0em }
+ul.simple          	{ margin: 2em 0em; list-style-type: none }
+ul.toc             	{ margin: 2em 0em; list-style-type: none }
+li.dgp                 	{ margin: 1em 0em }
+dt.dgp                 	{ font-weight: bold; }
+ul.toc li          	{ margin: 0em }
+
+pre.dgp                	{ font-family: monospace }
+
+span.title         	{ font-style: italic }
+span.name-ship     	{ font-style: italic }
+span.footnoteref   	{ vertical-align: super; font-size: 60% }
+span.code          	{ font-family: monospace; font-size: 110%; }
+
+dl.dgp                 	{ }
+dl.dgp dt              	{ }
+dl.dgp dd              	{ margin: 0em 0em 0em 4em }
+
+dl.footnote        	{ font-size: 80% }
+dl.footnote dt     	{ font-weight: normal; text-align: right; 
+                     	  float: left; width: 3em }
+dl.footnote dd     	{ margin: 0em 0em 1ex 4em }
+
+ul.dgp-castlist 		{ margin: 0em; list-style-type: none }
+li.dgp-castitem			{ margin: 0em; }
+table.dgp-castgroup     	{ margin: 0em; }
+ul.dgp-castgroup		{ margin: 0em; list-style-type: none; 
+				  padding-right: 2em; border-right: solid black 2px; }
+caption.dgp-castgroup-head	{ width: 50%; text-align: left; 
+				  vertical-align: middle; padding-left: 2em; }
+.dgp-roledesc			{ font-style: italic }
+.dgp-set			{ font-style: italic }
+
+th.dgp			{ padding: 0em 1em }
+td.dgp			{ padding: 0em 1em }
